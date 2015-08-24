@@ -1,0 +1,17 @@
+# DarkSoulsDeathScreen (1.12 version)
+
+This addon is vanilla compatible version of the addon [Dark Souls Death Screen][dsds] by [latreese][latreese] (idea goes to him). This came as an anonymous request on /nostg/, and I took up the challenge.
+
+-   Player death triggers the YOU DIED animation.
+    -   Hunter Feign Death does trigger the animation, and priest Spirit of Redemption sets a false death flag that's checked the the aura is lost, triggering the animation then.
+-   Type `/dsds` in chat for standard Ace2 addon commands and...
+    -   `/dsds you_died_test` to trigger the YOU DIED animation.
+
+## Major Challenges:
+
+-   **Vanilla WoW has none of the animation framework used by the retail addon**, making a straight "backport" unfeasable without completely implementing those missing frameworks.
+-   ...so instead I hacked together some timer-driven "animations" using the Ace2 library [Metrognome][metrognome].
+
+[dsds]:http://www.wowace.com/addons/dark-souls-death-screen/
+[latreese]:http://www.wowace.com/profiles/latreese/
+[metrognome]:https://web.archive.org/web/20070729015742/http://www.wowace.com/wiki/Metrognome
