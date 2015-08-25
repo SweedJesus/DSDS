@@ -4,6 +4,8 @@ This addon is vanilla compatible version of the addon [Dark Souls Death
 Screen][dsds] by [latreese][latreese] (idea goes to him). This came as an
 anonymous request on /nostg/, and I took up the challenge.
 
+### **>> Rename the folder to `DSDS`<<**
+
 -   Player death triggers the YOU DIED animation.
     -   Hunter Feign Death does trigger the animation, and priest Spirit of
         Redemption sets a false death flag that's checked the the aura is lost,

@@ -94,7 +94,7 @@ function DSDS:OnInitialize()
             you_died_test = {
                 name = "You Died",
                 desc = "Test the You Died animation.",
-                type = "execute", 
+                type = "execute",
                 func = function()
                     self:YouDied()
                 end
@@ -118,10 +118,11 @@ end
 function DSDS:OnDisable()
 end
 
-local SOR = "Interface\\Icons\\INV_Enchant_EssenceEternalLarge.blp"
+local SOR = "Interface\\Icons\\INV_Enchant_EssenceEternalLarge"
 local FD  = "Interface\\Icons\\Ability_Rogue_FeignDeath"
 
 function DSDS:PLAYER_DEAD()
+    self:Debug("PLAYER_DEAD")
     local i, buff, sor, fd = 1, UnitBuff("player", 1), false
     while buff and (not sor or not fd) do
         sor = buff == SOR
@@ -135,6 +136,8 @@ function DSDS:PLAYER_DEAD()
     elseif sor then
         self:Debug("You died! (gained SOR)")
         self.was_fake_death = true
+    else
+        self:Debug("You feigned death!")
     end
 end
 
