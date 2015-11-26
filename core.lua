@@ -91,7 +91,7 @@ function DSDS:OnInitialize()
     self:RegisterChatCommand({ "/DSDS", "/at" }, {
         type = "group",
         args = {
-            you_died_test = {
+            test = {
                 name = "You Died",
                 desc = "Test the You Died animation.",
                 type = "execute",
