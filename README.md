@@ -13,7 +13,7 @@ anonymous request on /nogs/, and I took up the challenge.
         Redemption sets a false death flag that's checked the the aura is lost,
         triggering the animation then.
 -   Type `/dsds` in chat for standard Ace2 addon commands and...
-    -   `/dsds you_died_test` to trigger the YOU DIED animation.
+    -   `/dsds test` to trigger the YOU DIED animation.
 -   This is not an extensible addon, so don't expect any more features without
     work; work that I'm probably too lazy to put do.
 
