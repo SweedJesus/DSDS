@@ -1,7 +1,7 @@
 ﻿## Interface: 11200
 ## Title: |cffffff00s|r|cff007fffj|rDSDS |cff7fff7f-Ace2-|r |cffff00001.12|r
 ## Author: SweedJesus (Miraculin @ Nostalrius)
-## X-Website: https://github.com/SweedJesus/sjDSDS
+## X-Website: https://sweedjesus.github.io/my-addons/
 ## X-Category: Misc
 ## DefaultState: Enabled
 
