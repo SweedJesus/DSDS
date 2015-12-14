@@ -1,0 +1,17 @@
+﻿## Interface: 11200
+## Title: |cffffff00s|r|cff007fffj|rDSDS |cff7fff7f-Ace2-|r |cffff00001.12|r
+## Author: SweedJesus (Miraculin @ Nostalrius)
+## X-Website: https://github.com/SweedJesus/sjDSDS
+## X-Category: Misc
+## DefaultState: Enabled
+
+libs\AceLibrary\AceLibrary.lua
+libs\AceOO-2.0\AceOO-2.0.lua
+libs\AceDebug-2.0\AceDebug-2.0.lua
+libs\AceEvent-2.0\AceEvent-2.0.lua
+libs\AceConsole-2.0\AceConsole-2.0.lua
+libs\AceAddon-2.0\AceAddon-2.0.lua
+libs\Compost-2.0\Compost-2.0.lua
+libs\Metrognome-2.0\Metrognome-2.0.lua
+
+sjDSDS.lua

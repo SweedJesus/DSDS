@@ -5,7 +5,7 @@
 -- 4. Text grow horizontal. At 50%...
 -- 5. Background and text fade out
 
-local MEDIA_PATH = "Interface\\AddOns\\DSDS\\media\\"
+local MEDIA_PATH = "Interface\\AddOns\\sjDSDS\\media\\"
 
 local SOUND_YOU_DIED = MEDIA_PATH.."YOUDIED.ogg"
 local TEXT_YOU_DIED  = MEDIA_PATH.."YOUDIED.tga"
@@ -78,7 +78,6 @@ local M = AceLibrary("Metrognome-2.0")
 DSDS = AceLibrary("AceAddon-2.0"):new(
 "AceConsole-2.0",
 "AceDebug-2.0",
-"AceDB-2.0",
 "AceEvent-2.0")
 
 function DSDS:OnInitialize()
