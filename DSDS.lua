@@ -5,7 +5,7 @@
 -- 4. Text grow horizontal. At 50%...
 -- 5. Background and text fade out
 
-local MEDIA_PATH = "Interface\\AddOns\\sjDSDS\\media\\"
+local MEDIA_PATH = "Interface\\AddOns\\DSDS\\media\\"
 
 local SOUND_YOU_DIED = MEDIA_PATH.."YOUDIED.ogg"
 local TEXT_YOU_DIED  = MEDIA_PATH.."YOUDIED.tga"
